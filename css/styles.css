@@ -10,14 +10,14 @@
   --color-bg-white: #ffffff;
   --color-bg-navy-blue: #2e2f42;
   --color-bg-cloud: #f4f4fd;
-  --color-bg-btn-iris: #4d5ae5;
-  --color-bg-btn-hover-ocean: #404bbf;
+  --color-bg-iris: #4d5ae5;
+  --color-bg-hover-ocean: #404bbf;
   --color-bg-btn-cloud: #f4f4fd;
+  --color-bg-green: #31d0aa;
   /* Border colors */
   --color-border-cornflower: #e7e9fc;
+  --color-border-light-slate: #8e8f99;
   /* Free colors */
-  --color-green: #31d0aa;
-  --color-light-slate: #8e8f99;
   --color-navy-blue-modal: #2e2f42;
   --color-grey: #2e2f42;
   --color-dairy: #fcfcfc;
@@ -133,12 +133,12 @@ img {
 }
 .btn:hover,
 .btn:focus {
-  background-color: var(--color-bg-btn-hover-ocean);
+  background-color: var(--color-bg-hover-ocean);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .btn-dark {
-  background-color: var(--color-bg-btn-iris);
+  background-color: var(--color-bg-iris);
 }
 .btn-dark:hover,
 .btn-dark:focus {
@@ -354,6 +354,63 @@ img {
 }
 .team-undersubtitle {
   text-align: center;
+  margin-bottom: 8px;
+}
+/* 
+  |==========================================================
+  | Socials icons styles
+  |==========================================================
+*/
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.socials-item {
+}
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-bg-iris);
+  border-radius: 50%;
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--color-bg-hover-ocean);
+}
+
+.socials-icon {
+  fill: var(--color-bg-cloud);
+}
+/* 
+  |==========================================================
+  | Customers styles
+  |==========================================================
+*/
+.customers {
+}
+.customers-title {
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-item {
+}
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-border-light-slate);
+  border-radius: 4px;
+}
+.customers-icon {
 }
 /* 
   |==========================================================
@@ -425,7 +482,7 @@ img {
 .portfolio-filter-item {
 }
 .portfolio-filter-btn {
-  color: var(--color-bg-btn-iris);
+  color: var(--color-bg-iris);
   padding: 12px 24px;
 }
 .portfolio-filter-btn:hover,
