@@ -519,7 +519,6 @@ img {
 .portfolio-filter-item {
 } */
 .portfolio-filter-btn {
-  display: block;
   color: var(--color-bg-iris);
   padding: 12px 24px;
 }
