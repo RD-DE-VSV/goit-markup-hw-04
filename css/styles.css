@@ -350,7 +350,7 @@ img {
   /* height: 260px; */
 }
 .team-wrapper {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .team-subtitle {
   font-weight: 500;
@@ -414,10 +414,9 @@ img {
   justify-content: center;
   gap: 24px;
 }
-/* 
-.customers-item {
-} 
-*/
+.customers-title {
+  line-height: 1.1;
+}
 .customers-link {
   display: flex;
   justify-content: center;
