@@ -396,7 +396,10 @@ img {
 .socials-link:focus {
   background-color: var(--color-bg-hover-ocean);
 }
-
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+  background-color: var(--color-bg-green);
+}
 .socials-icon {
   fill: currentColor;
 }
