@@ -445,11 +445,12 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-list {
+.footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 .footer-item {
+  margin-right: 120px;
 }
 .footer-item-titel {
   font-weight: 500;
